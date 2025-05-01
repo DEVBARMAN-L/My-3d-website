@@ -1,38 +1,34 @@
-body, html {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  background: #000;
-  color: white;
-  height: 100%;
-  overflow: hidden;
+
+body {
+  background: radial-gradient(circle at center, #0a0a23, #000);
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  scroll-behavior: smooth;
 }
-.hero-section {
-  position: relative;
-  width: 100%;
-  height: 100vh;
+
+h1, h2, h3 {
+  text-shadow: 0 0 10px #00f2ff;
 }
-#bgCanvas {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-}
-.info {
-  position: relative;
-  z-index: 10;
-  padding: 40px;
-}
-.resume-button {
-  background: #ffc107;
-  color: black;
+
+button {
+  background: linear-gradient(135deg, #00f2ff, #ff00d4);
+  border: none;
   padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 5px;
-  margin-left: 20px;
+  border-radius: 30px;
+  color: white;
+  font-size: 1em;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 20px #00f2ff88;
 }
-.status {
-  color: lime;
+
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 30px #00f2ff;
+}
+
+.glow-border {
+  border: 2px solid #00f2ff;
+  box-shadow: 0 0 10px #00f2ff, inset 0 0 10px #00f2ff;
+  border-radius: 15px;
+  padding: 15px;
 }
