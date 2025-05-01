@@ -1,0 +1,38 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #000;
+  color: white;
+  height: 100%;
+  overflow: hidden;
+}
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+#bgCanvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+.info {
+  position: relative;
+  z-index: 10;
+  padding: 40px;
+}
+.resume-button {
+  background: #ffc107;
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+.status {
+  color: lime;
+}
